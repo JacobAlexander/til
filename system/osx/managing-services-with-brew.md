@@ -25,11 +25,12 @@ brew tap gapple/services
 ## Usage
 
 ```
-brew start mongodb
-brew stop redis
-brew restart postgresql
+brew services start mongodb
+brew services stop redis
+brew services restart postgresql
 ```
 
 ## Additional info
 
 * [blogpost entry](https://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew)
+* https://github.com/gapple/homebrew-services
