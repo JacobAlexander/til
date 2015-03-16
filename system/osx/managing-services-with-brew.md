@@ -34,3 +34,4 @@ brew services restart postgresql
 
 * [blogpost entry](https://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew)
 * https://github.com/gapple/homebrew-services
+* [LaunchControl](http://www.macupdate.com/app/mac/46921/launchcontrol) app as an alternative
