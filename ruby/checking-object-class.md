@@ -33,7 +33,7 @@ bar.kind_of?(Foo)
 
 If you have to check if some class inherits after another one, there is also a nice way to do that:
 
-```
+```ruby
 Bar < Foo
 #=> true
 
