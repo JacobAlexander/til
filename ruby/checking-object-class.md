@@ -41,6 +41,20 @@ Foo > Bar
 #=> true
 ```
 
+There is also `instance_of?` method which allows you to check if obj is an instance of the given class. Someone can consider this as a code smell.
+
+
+```ruby
+class A;     end
+class B < A; end
+class C < B; end
+
+b = B.new
+b.instance_of? A   #=> false
+b.instance_of? B   #=> true
+b.instance_of? C   #=> false
+```
+
 ## Further read
 
 * [Object class in Ruby](http://ruby-doc.org/core-2.2.1/Object.html#method-i-is_a-3F)
