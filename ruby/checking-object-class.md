@@ -16,28 +16,28 @@ end
 Of course we can compare classes like this:
 
 ```ruby
-#> foo = Foo.new
-#> foo.class == Foo
+foo = Foo.new
+foo.class == Foo
 #> true
 ```
 
 but there is much nicer way - using `is_a?` / `kind_of?`:
 
 ```ruby
-#> bar = Bar.new
-#> bar.is_a?(Bar)
+bar = Bar.new
+bar.is_a?(Bar)
 #=> true
-#> bar.kind_of?(Foo)
+bar.kind_of?(Foo)
 #=> true
 ```
 
 If you have to check if some class inherits after another one, there is also a nice way to do that:
 
 ```
-#> Bar < Foo
+Bar < Foo
 #=> true
 
-#> Foo > Bar
+Foo > Bar
 #=> true
 ```
 
