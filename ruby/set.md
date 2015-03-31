@@ -30,5 +30,5 @@ sorted_set << element
 
 ## Further read
 
-* [http://ruby-doc.org/stdlib-1.9.3/libdoc/set/rdoc/Set.html](http://ruby-doc.org/stdlib-1.9.3/libdoc/set/rdoc/Set.html)
-* [http://ruby-doc.org/stdlib-1.9.3/libdoc/set/rdoc/SortedSet.html](http://ruby-doc.org/stdlib-1.9.3/libdoc/set/rdoc/SortedSet.html)
+* [http://ruby-doc.org/stdlib-2.2.1/libdoc/set/rdoc/Set.html](http://ruby-doc.org/stdlib-2.2.1/libdoc/set/rdoc/Set.html)
+* [http://ruby-doc.org/stdlib-2.2.1/libdoc/set/rdoc/SortedSet.html](http://ruby-doc.org/stdlib-2.2.1/libdoc/set/rdoc/SortedSet.html)
