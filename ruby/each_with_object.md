@@ -1,4 +1,4 @@
-# Using inject for creating hashes
+# Using `each_with_object` for creating hashes
 
 Let's say I want to create a hash of the following structure:
 
