@@ -1,6 +1,6 @@
 # How to change (fake) your system version
 
-**Fair warning:** once you set your system version to lower, various apps - including Preview, Safari, Mail, System Preferecnes and so on - may not run properly or even at all. Just change version back and you'll be saved.
+**Fair warning:** once you set your system version to lower, various apps - including Preview, Safari, Mail, System Preferecnes and so on - may not run properly or even at all (this is why it's also a VERY GOOD IDEA to have iTerm 2 installed or any other termnal emulator other than the official Terminal.app - hey, just sayin') - change version back and you'll be saved.
 
 If you are in need of faking your system version for few seconds (because gem isn't installing or app ain't running), you just have to edit one .plist file. Note that you must edit it as a superuser, so for example using Vim:
 
