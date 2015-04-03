@@ -49,6 +49,7 @@ because of a bug it turns out that
 #### Deface uses the selectors on Erb files and not compiled HTML files
 
 Moreover, you can write Deface overrides in Haml/Slim but it will still
+
 1. Convert them to Erb
 2. Convert Erb blocks into Html-ish tags
 ..* `<% some_method %>` = `<erb silent> some_method </erb>`
