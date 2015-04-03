@@ -60,9 +60,11 @@ So, since we want to replace an Erb block, our selector will have to contain `er
 
 ### Final solution
 
+A Haml file `make_email_a_link_to_profile.html.haml.deface`
+
 ```
 / replace 'tr[data-hook=admin_orders_index_rows] td:nth-of-type(6) erb[loud]'
-<%= link_to order.email, admin_user_path(order.user) %>
+= link_to order.email, admin_user_path(order.user)
 ```
 
 
