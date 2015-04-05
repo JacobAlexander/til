@@ -25,7 +25,7 @@ Thread model: posix
 
 It's **Clang**.
 
-XCode is overriding my GCC of choice installed by the brew command. Now that's not cool. I could override this or use a symlink (lol, nope, I'm so lazy!) - but this would mean messing with XCode and I need it to also work.
+XCode is overriding my GCC of choice installed by the brew command. Now, that's not cool. I could override this or use a symlink (lol, nope, I'm so lazy!) - but this would mean messing with XCode and I need it to also work.
 
 Solution? As old as the hills. Override the env variable responsible for telling _makefiles_ which compiler they should use. And that's a `CC` env:
 
