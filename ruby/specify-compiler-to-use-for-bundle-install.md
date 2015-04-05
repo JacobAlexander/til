@@ -6,7 +6,7 @@
 ❯ gem install beybug -v '4.0.5'
 ```
 
-It gave me error (failed to compile)  with something significant in the middle:
+It gave me an error (failed to compile)  with something significant in the middle:
 
 ```shell
 compiling breakpoint.c
