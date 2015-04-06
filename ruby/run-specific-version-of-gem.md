@@ -1,4 +1,4 @@
-# Run specific version of a gem
+# Run specific version of a gem using rvm
 
 **Question:** if I have multiple versions of Rails installed (assuming I am lazy and have only one gemset) - how do I run a specific version e.g. create new Rails project in _4.0.9_ and not _4.2.1_?
 
