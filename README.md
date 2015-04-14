@@ -13,4 +13,4 @@ If you like this repo, you might also like [our blog](https://netguru.co) where 
 
 © 2015 netguru, Distributed under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/3.0/).
 
-*Inspired by TIL by [thoughtbot](https://github.com/thoughtbot/til).*
+*Inspired by [TIL by thoughtbot](https://github.com/thoughtbot/til).*
