@@ -10,7 +10,7 @@ sudo vi /System/Library/CoreServices/SystemVersion.plist
 
 Just remember to quit using `:wq!` as file is opened up in a read-only mode.
 
-**Note:** it make take a reboot for some apps to notice the change.
+**Note:** it may take a reboot for some apps to notice the change.
 
 Example of disguising as Maverick on Yosemite:
 
