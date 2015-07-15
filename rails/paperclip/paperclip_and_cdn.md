@@ -1,6 +1,6 @@
 ## Using paperclip and CDN for serving images
 ### Problem
-#### When you edit or reupload new version of an image with paperclip, without changing its filename, cloudfront will serve you the old version of this asset.
+When you edit or reupload new version of an image with paperclip, without changing its filename, cloudfront will serve you the old version of this asset.
 
 ### Solution
 To solve this problem, I added special method to every model which has an image attached. This method adds timestamp to attachment filename, every time it gets processed by paperclip.
