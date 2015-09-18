@@ -24,3 +24,15 @@ If you use simple `gets`, ruby will scream at you:
   
   no errors whatsoever! \o/
 ```
+
+While you're at it, it's a good idea to now show the password as it's being typed:
+
+```ruby
+  def initialize
+    self.login = ARGV[0]
+    print 'password: '
+    self.password = STDIN.noecho(&:gets).chomp
+  end
+  
+  even less errors! and no password shown! \o/
+```
