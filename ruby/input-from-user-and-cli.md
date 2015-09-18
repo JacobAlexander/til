@@ -22,5 +22,5 @@ If you use simple `gets`, ruby will scream at you:
     self.password = STDIN.gets.chomp
   end
   
-  no error whatsoever! \o/
+  no errors whatsoever! \o/
 ```
