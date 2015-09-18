@@ -28,6 +28,8 @@ If you use simple `gets`, ruby will scream at you:
 While you're at it, it's a good idea to now show the password as it's being typed:
 
 ```ruby
+  require ‘io/console’
+  
   def initialize
     self.login = ARGV[0]
     print 'password: '
@@ -36,3 +38,5 @@ While you're at it, it's a good idea to now show the password as it's being type
   
   even less errors! and no password shown! \o/
 ```
+
+Don't forget about the `require`!
