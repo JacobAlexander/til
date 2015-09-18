@@ -28,7 +28,7 @@ If you use simple `gets`, ruby will scream at you:
 While you're at it, it's a good idea to now show the password as it's being typed:
 
 ```ruby
-  require ‘io/console’
+  require 'io/console'
   
   def initialize
     self.login = ARGV[0]
